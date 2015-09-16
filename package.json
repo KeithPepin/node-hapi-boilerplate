@@ -1,0 +1,27 @@
+{
+  "name": "ChampionsWebsite",
+  "version": "1.0.0",
+  "description": "A personal website built to support my Champions RPG and gaming group",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./spec/support/runner.js -x '**/*[sS]pec.js' -x 'spec/support/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeithPepin/ChampionsWebsite.git"
+  },
+  "author": "Keith M. Pepin",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.14",
+    "jasmine": "^2.3.2",
+    "jasmine-reporters": "^2.0.7",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage": "^0.3.1",
+    "karma-firefox-launcher": "*",
+    "karma-jasmine": "*",
+    "karma-phantomjs-launcher": "*",
+    "karma-safari-launcher": "*"
+  }
+}
