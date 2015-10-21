@@ -3,8 +3,8 @@ var Jasmine = require('jasmine'),
     jasmine = new Jasmine(),
     reporters = require('jasmine-reporters'),
     junitReporter = new reporters.JUnitXmlReporter({
-        savePath: './coverage/',
-        consolidateAll: true
+        consolidateAll: true,
+        savePath: './coverage/'
     });
 
 jasmine.loadConfigFile('./spec/support/jasmine.json');

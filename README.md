@@ -1,2 +1,2 @@
-# ChampionsWebsite
-A personal website built to support my Champions RPG and gaming group
+# node-hapi-boilerplate
+My boilerplate for a new Node.js Hapi project

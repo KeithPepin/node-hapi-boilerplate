@@ -1,20 +1,22 @@
 {
-  "name": "ChampionsWebsite",
-  "version": "1.0.0",
-  "description": "A personal website built to support my Champions RPG and gaming group",
+  "name": "node-hapi-boilerplate",
+  "version": "0.0.1",
+  "description": "Project boilerplate including basic docs, style guide, build, testing, and CI configuration.",
   "main": "index.js",
   "scripts": {
     "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./spec/support/runner.js -x '**/*[sS]pec.js' -x 'spec/support/**/*'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KeithPepin/ChampionsWebsite.git"
+    "url": "https://github.com/KeithPepin/node-hapi-boilerplate.git"
   },
   "author": "Keith M. Pepin",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "istanbul": "^0.3.14",
     "jasmine": "^2.3.2",
-    "jasmine-reporters": "^2.0.7"
+    "jasmine-reporters": "^2.0.7",
+    "jscs": "^2.3.5",
+    "nodemon": "^1.7.3"
   }
 }
