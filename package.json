@@ -1,22 +1,32 @@
 {
   "name": "node-hapi-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Project boilerplate including basic docs, style guide, build, testing, and CI configuration.",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./spec/support/runner.js -x '**/*[sS]pec.js' -x 'spec/support/**/*'"
+    "test": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json istanbul cover `which jasmine`"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/KeithPepin/node-hapi-boilerplate.git"
   },
-  "author": "Keith M. Pepin",
+  "keywords": [
+    "javascript",
+    "hapi"
+  ],
+  "author": "Keith M. Pepin <keith.pepin@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeithPepin/node-hapi-boilerplate/issues"
+  },
   "devDependencies": {
     "istanbul": "^0.3.14",
     "jasmine": "^2.3.2",
     "jasmine-reporters": "^2.0.7",
     "jscs": "^2.3.5",
     "nodemon": "^1.7.3"
+  },
+  "dependencies": {
+    "hapi": "^11.0.2"
   }
 }
