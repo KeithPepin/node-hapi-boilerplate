@@ -20,6 +20,7 @@
     "url": "https://github.com/KeithPepin/node-hapi-boilerplate/issues"
   },
   "devDependencies": {
+    "code-copter": "^1.2.0",
     "istanbul": "^0.3.14",
     "jasmine": "^2.3.2",
     "jasmine-reporters": "^2.0.7",
