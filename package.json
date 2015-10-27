@@ -1,6 +1,6 @@
 {
   "name": "node-hapi-boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Project boilerplate including basic docs, style guide, build, testing, and CI configuration.",
   "main": "index.js",
   "scripts": {

@@ -22,7 +22,7 @@
     "$": false,
     "URI": false,
     "jasmine": true,
-    "define": false,
+    "define": true,
     "require": true
   },
   "indent": 4,
