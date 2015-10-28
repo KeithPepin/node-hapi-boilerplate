@@ -2,9 +2,10 @@
   "name": "node-hapi-boilerplate",
   "version": "0.0.3",
   "description": "Project boilerplate including basic docs, style guide, build, testing, and CI configuration.",
-  "main": "index.js",
+  "main": "./source/index.js",
   "scripts": {
-    "test": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json istanbul cover `which jasmine`"
+    "test": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json istanbul cover `which jasmine`",
+    "start" : "NODE_ENV=local node ."
   },
   "repository": {
     "type": "git",
