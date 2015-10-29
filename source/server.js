@@ -1,3 +1,5 @@
+'use strict';
+
 var hapi = require('hapi'),
     config = {
         port: 3000
@@ -6,7 +8,7 @@ var hapi = require('hapi'),
 
 server.connection(config);
 
-server.start(function () {
+server.start(function startHapiServer() {
     console.log('Server running at:', server.info.uri);
 });
 
