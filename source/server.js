@@ -34,8 +34,8 @@ HttpApi.prototype.start = function start() {
         Inert,
         Vision,
         {
-            register: swagger,
-            options: swaggerOptions
+            options: swaggerOptions,
+            register: swagger
         }
     ], function swaggerRegisterErrorHandler(error) {
         if (error) {
