@@ -2,4 +2,6 @@
 
 var server = require('./server');
 
-module.exports = server;
+server.start();
+
+module.exports = true;
