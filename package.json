@@ -1,24 +1,17 @@
 {
   "name": "node-hapi-boilerplate",
-  "version": "0.0.3",
   "description": "Project boilerplate including basic docs, style guide, build, testing, and CI configuration.",
-  "main": "./source/index.js",
-  "scripts": {
-    "test": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json istanbul cover `which jasmine`",
-    "start": "NODE_ENV=local node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KeithPepin/node-hapi-boilerplate.git"
-  },
-  "keywords": [
-    "javascript",
-    "hapi"
-  ],
+  "version": "0.0.3",
   "author": "Keith M. Pepin <keith.pepin@gmail.com>",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/KeithPepin/node-hapi-boilerplate/issues"
+  },
+  "dependencies": {
+    "hapi": "^11.0.2",
+    "hapi-swagger": "^2.2.1",
+    "inert": "^3.2.0",
+    "q": "^1.4.1",
+    "vision": "^3.0.0"
   },
   "devDependencies": {
     "code-copter": "^1.4.0",
@@ -28,11 +21,18 @@
     "jscs": "^2.3.5",
     "nodemon": "^1.7.3"
   },
-  "dependencies": {
-    "hapi": "^11.0.2",
-    "hapi-swagger": "^2.2.1",
-    "inert": "^3.2.0",
-    "q": "^1.4.1",
-    "vision": "^3.0.0"
+  "keywords": [
+    "hapi",
+    "javascript"
+  ],
+  "license": "ISC",
+  "main": "./source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeithPepin/node-hapi-boilerplate.git"
+  },
+  "scripts": {
+    "start": "NODE_ENV=local node .",
+    "test": "NODE_ENV=test JASMINE_CONFIG_PATH=jasmine.json istanbul cover `which jasmine`"
   }
 }
